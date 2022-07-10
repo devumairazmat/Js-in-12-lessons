@@ -32,3 +32,21 @@ console.log(paragraph[40]);
 
 console.log(paragraph.slice(12,26));
 
+// Functions
+
+// sum
+function sum (a,b) {
+    console.log("a is ",a);
+    console.log("b is ",b);
+    let sum=a+b;
+    return sum;
+}
+
+console.log("sum of a and b is :", sum(5,10));
+
+// Miles to  Km
+function milesToKillometers(miles){
+    return (miles*1.609).toFixed(1);
+}
+milesToKillometers(50);
+console.log(milesToKillometers(50))
