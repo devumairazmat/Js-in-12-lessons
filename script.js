@@ -75,7 +75,7 @@ console.log(compare(20, 20));
 console.log(compare("ten", 20));
 console.log(compare(10, "twenty"));
 
-// Switch Case
+// Switch Case 
 
 function today() {
   const day = new Date().getDay();
@@ -116,7 +116,7 @@ function weekend() {
 console.log(weekend());
 
 
-// Arrays
+// Arrays -5
 
 function month() {
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "july","Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -134,3 +134,4 @@ console.log(months);
 
 console.log(months.pop("December"));
 console.log(months);
+
