@@ -114,3 +114,23 @@ function weekend() {
   return date == 0 || date == 6 ? "Weekend" : "not weekend";
 }
 console.log(weekend());
+
+
+// Arrays
+
+function month() {
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "july","Aug", "Sep", "Oct", "Nov", "Dec"]
+    const current = new Date().getMonth();
+    return months[current]
+    // console.log(current);
+}
+console.log(month());
+
+const months = ["January", "February", "March", "April", "May"]
+console.log(months);
+
+console.log(months.push("December"));
+console.log(months);
+
+console.log(months.pop("December"));
+console.log(months);
