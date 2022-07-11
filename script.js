@@ -155,7 +155,7 @@ console.log(months);
 // console.log(createWaponsList().strength);
 // console.log(npcs)
 
-// Loops
+// Loops -7
 
 const npcs = [];
 
@@ -187,3 +187,36 @@ console.log(createWaponsList().weapons);
 console.log(createWaponsList().damage);
 console.log(createWaponsList().strength);
 console.log(npcs)
+
+
+// Classes - 8
+
+class Point{
+    constructor(x, y) {
+        this.x = x;
+        this.y =y;
+    }
+}
+
+// class Reactangle {
+//     constructor(left, right,height,width) {
+//         this.left = left;
+//         this.right = right;
+//         this.height = height;
+//         this.width = width;
+//     }
+//     get area() {
+//         return this.width * this.height;
+//     }
+// }
+// const reactangle = new Reactangle (20,20,40,40);
+// console.log(reactangle);
+const pt = new Point(12,22);
+console.log(pt);
+
+// module
+import Reactangle from "./Rectangle.js"
+const rectangle = new Reactangle (10,20,40,40);
+console.log("Module checking",rectangle);
+
+// Scope
