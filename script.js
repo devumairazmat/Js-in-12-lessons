@@ -135,14 +135,47 @@ console.log(months);
 console.log(months.pop("December"));
 console.log(months);
 
-// Objects - 6
+// Objects - 6 /
+
+// const npcs = [];
+// npcs.push(createWaponsList());
+
+// function createWaponsList(){
+//     const powers = (Math.random() * 0.5 + 0.5).toFixed(3);
+//     const weapons = ["soware","Pistol","Machine gun","gernade"]
+//     const damage = 0;
+//     const strength = Math.random() * 2 + 1.0;
+
+//     return { powers, weapons, damage, strength}
+// }
+
+// console.log(createWaponsList().powers);
+// console.log(createWaponsList().weapons);
+// console.log(createWaponsList().damage);
+// console.log(createWaponsList().strength);
+// console.log(npcs)
+
+// Loops
 
 const npcs = [];
+
+// For loop
+// for (let i = 0; i <10; i++){
+//     npcs.push(createWaponsList());
+// }
+
+// while Loop
+// let i = 0
+// while( i <10){
+//     npcs.push(createWaponsList());
+//     i++
+// }
+
 npcs.push(createWaponsList());
 
 function createWaponsList(){
     const powers = (Math.random() * 0.5 + 0.5).toFixed(3);
-    const weapons = ["soware","Pistol","Machine gun","gernade"]
+    const weapons = ["Soward","Pistol","Machine Gun","Gernade"]
     const damage = 0;
     const strength = Math.random() * 2 + 1.0;
 
@@ -154,5 +187,3 @@ console.log(createWaponsList().weapons);
 console.log(createWaponsList().damage);
 console.log(createWaponsList().strength);
 console.log(npcs)
-
-// Loops
